@@ -1,0 +1,8 @@
+ws2811d: A simple daemon based on rpi_ws281x
+============================================
+
+This very simple daemon allows writing RGB data directly to WS2811 LED strings
+over the network, using UDP packets. All Raspberry Pi models are supported. Ugly
+example client code is provided in client.py.
+
+https://github.com/jgarff/rpi_ws281x
